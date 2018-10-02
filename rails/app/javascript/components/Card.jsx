@@ -27,14 +27,15 @@ class Card extends Component {
     if (this.props.user && this.props.user.role === 'editor') {
       return (
         <ul>
-          <li>Hello {this.props.user.email} (<a href="/">Back to Welcome Page</a>)</li>
-          <li><a href="/admin">Admin Page</a></li>
+          <li>Denda ko, {this.props.user.email} (<a href="/">Go ko na bigi</a>)</li>
+          <li><a href="/admin">Admin Pagina</a></li>
         </ul>
       );
     } else if (this.props.user) {
       return (
         <ul>
-          <li>Hello {this.props.user.email} (<a href="/">Back to Welcome Page</a>)</li>
+          <li>Denda ko, {this.props.user.email} (<a href="/">Go ko na bigi
+</a>)</li>
         </ul>
       );
     }

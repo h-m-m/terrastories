@@ -16,12 +16,12 @@ class IntroPopup extends PureComponent {
   render(){
     return(
       <div className={this.state.isPopped ? 'intro-card isShown' : 'intro-card isHidden'}>
-        <h2>Introduction</h2>
-        <h3>What's a Terrastory?</h3>
-        <p>Terrastories are audiovisual recordings of place-based storytelling. This offline-compatible application enables local communities to locate and map their own oral storytelling traditions about places of significant meaning or value to them.</p>
+        <h2>Buta a kama</h2>
+        <h3>Andi na wan terrastory?</h3>
+        <p>Terrastories sa de wan fillong naso wan audio dus soso jee i ta jee an de sembe ta konda aba wan soni di pasa a wan kamia. Di 'applicatie' aki so bakaa kai eng de tak hii de gemeenschap o mang fu konda de egi histori over de belangrijk kamia fu a sa kon a di kaita.</p>
 
         <div className="intro-card--actions">
-          <span className="count" onClick={this.handleIntroPopup}>Close</span>
+          <span className="count" onClick={this.handleIntroPopup}>Tapa</span>
         </div>
       </div>
     );

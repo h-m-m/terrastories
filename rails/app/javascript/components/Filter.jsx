@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Select from 'react-select';
 class Filter extends Component {
 
-  DEFAULT_CATEGORY_PLACEHOLDER = 'Select Category';
-  DEFAULT_ITEM_PLACEHOLDER = 'Select Option'
+  DEFAULT_CATEGORY_PLACEHOLDER = 'Kies wan sooti sondi:';
+  DEFAULT_ITEM_PLACEHOLDER = 'Kies a sondi:'
 
   constructor(props){
     super(props);
@@ -65,7 +65,7 @@ class Filter extends Component {
   render() {
     return (
       <React.Fragment>
-        <span className="card--nav-filter">Filter Stories: </span>
+        <span className="card--nav-filter">Luku fini: </span>
         <Select
           className="categoryFilter"
           classNamePrefix="select"
